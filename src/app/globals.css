@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,4 +31,32 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.colorful-text {
+  text-shadow:
+      -1px -1px 0 #004400, /* Top-left dark green */
+      1px -1px 0 #004400,  /* Top-right dark green */
+      -1px 1px 0 #004400,  /* Bottom-left dark green */
+      1px 1px 0 #004400,   /* Bottom-right dark green */
+      -2px -2px 0 #FFFFFF, /* Top-left white */
+      2px -2px 0 #FFFFFF,  /* Top-right white */
+      -2px 2px 0 #FFFFFF,  /* Bottom-left white */
+      2px 2px 0 #FFFFFF;   /* Bottom-right white */
+}
+
+/* .sticker-shadow{
+  -webkit-filter: drop-shadow(0 15px 25px #222);
+  filter: drop-shadow(0 15px 25px #222);
+
+} */
+
+/* #main {
+  background-image: url('/bg.png');
+} */
+
+.justify-content-end
+{
+  justify-content: end;
 }
