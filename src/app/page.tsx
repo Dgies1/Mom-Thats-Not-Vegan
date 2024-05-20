@@ -6,7 +6,7 @@ export default function Home() {
 
       <nav className="flex flex-row sm:flex-col md:my-5 items-center h-min">
         <Image src="/logo.png" alt="Logo" className="-rotate-12 sticker-shadow w-16 h-16 lg:w-auto lg:h-auto" width={512} height={512} loading="eager" />
-        <h1 className="text-2xl sm:text-5xl drop-shadow-lg text-[#249a4b] sm:colorful-text font-bold">Mom, That's Not Vegan</h1>
+        <h1 className="text-2xl sm:text-5xl drop-shadow-lg text-[#249a4b] sm:colorful-text font-bold">Mom, That&apos;s Not Vegan</h1>
 
       </nav>
       <div className="flex h-full w-full md:w-auto px-5 items-center md:px-0 py-6">
