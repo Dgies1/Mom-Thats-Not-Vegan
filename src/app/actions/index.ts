@@ -2,7 +2,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { HfInference } from "@huggingface/inference";
 
-const HF_TOKEN = "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";
+const HF_TOKEN = process.env.HF_TOKEN;
+console.log("HF_TOKEN:", HF_TOKEN);
 const inference = new HfInference(HF_TOKEN);
 type AskQuestionData = {
   question: string;
